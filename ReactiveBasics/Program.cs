@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ReactiveBasics.Creation;
+using ReactiveBasics.TamingSequences;
 
 namespace ReactiveBasics
 {
@@ -18,7 +19,8 @@ namespace ReactiveBasics
             //InspectingElements.Run();
             //FunctionalFolds.Run();
 
-            TransformingSequences.Run();
+            //TransformingSequences.Run();
+            SideEffects.Run();
             Console.ReadLine();
         }
     }
