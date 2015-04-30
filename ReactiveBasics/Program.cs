@@ -20,7 +20,9 @@ namespace ReactiveBasics
             //FunctionalFolds.Run();
 
             //TransformingSequences.Run();
-            SideEffects.Run();
+            //SideEffects.Run();
+            //Monarchy.Run();
+            AdvanceErrorHandling.Run();
             Console.ReadLine();
         }
     }

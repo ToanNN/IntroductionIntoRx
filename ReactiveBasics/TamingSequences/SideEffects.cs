@@ -16,7 +16,21 @@ namespace ReactiveBasics.TamingSequences
 
             //ComposingDataInPipeline();
 
-            UsingScan();
+            //UsingScan();
+
+            UsingDo();
+
+        }
+
+        private static void UsingDo()
+        {
+            var source = Observable.Range(1, 5);
+            IObservable<int> result =source.Do(i => MyObservableExtensions.Log(i),
+                ex => MyObservableExtensions.Log(ex),
+                MyObservableExtensions.LogComplete);
+
+            result.Dump("Do Result");
+
 
         }
 

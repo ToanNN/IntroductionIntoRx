@@ -62,12 +62,16 @@
     <Compile Include="Creation\FunctionalFolds.cs" />
     <Compile Include="Creation\FunctionalUnfolds.cs" />
     <Compile Include="Creation\InspectingElements.cs" />
-    <Compile Include="Creation\MyObservableExtensions.cs" />
+    <Compile Include="MyObservableExtensions.cs" />
     <Compile Include="Creation\ReducingSequence.cs" />
     <Compile Include="Creation\TransformingSequences.cs" />
     <Compile Include="Creation\TransitioningIntoObservables.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TamingSequences\AdvanceErrorHandling.cs" />
+    <Compile Include="TamingSequences\AvoidingLeakyRepo.cs" />
+    <Compile Include="TamingSequences\Monarchy.cs" />
+    <Compile Include="TamingSequences\MyEventArgs.cs" />
     <Compile Include="TamingSequences\SideEffects.cs" />
   </ItemGroup>
   <ItemGroup>
