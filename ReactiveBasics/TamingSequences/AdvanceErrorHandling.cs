@@ -17,7 +17,8 @@ namespace ReactiveBasics.TamingSequences
         {
             var source = new Subject<int>();
 
-           var final= source.Finally(() => Console.WriteLine("Actually"));
+           IObservable<int> final= source.Finally(() => Console.WriteLine("Actually"));
+
             //var result = source.Catch<int, TimeoutException>(ex => Observable.Return(-1));  //Return -1 whenever a timeout exception happens
 
             //result.Dump("Handled");
